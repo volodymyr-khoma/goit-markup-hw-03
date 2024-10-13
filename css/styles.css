@@ -1,4 +1,10 @@
+a {
+    text-decoration: none;
+}
 
+ul {
+    list-style: none;
+}
 
 .body {
     font-family: "Roboto", sans-serif;
@@ -91,19 +97,29 @@
     background-color: #404BBF
 }
 
+.solution-list {
+    display: flex;
+    gap: 24px;
+}
+
+.solution-element {
+    width: calc(100% - 72) / 4;
+}
+
 .benefits {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: #000000;
+    margin-bottom: 8px;
 }
 
 .benefits-p {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: #000000;
 }
 
 .team {
@@ -229,4 +245,17 @@ img {
 .address-list {
     display: flex;
     gap: 40px;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
