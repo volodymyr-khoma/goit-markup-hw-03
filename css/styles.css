@@ -105,6 +105,8 @@ ul {
 .benefits-list {
     display: flex;
     gap: 24px;
+    padding-left: 0;
+    margin: 0;
 }
 
 .benefits-element {
