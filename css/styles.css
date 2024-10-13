@@ -108,7 +108,7 @@ ul {
 }
 
 .benefits-element {
-    width: calc(100% - 72px) / 4;
+    width: calc(100% - 72) / 4;
 }
 
 .benefits {
